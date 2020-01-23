@@ -10,6 +10,7 @@ const Home = props => {
         gang and make jaunting a part of your life.
       </h4>
       <h6>What is a jaunt?</h6>
+      <h6>How to join?</h6>
     </Container>
   )
 }
