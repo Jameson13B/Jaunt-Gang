@@ -11,6 +11,7 @@ const Home = props => {
       </h4>
       <h6>What is a jaunt?</h6>
       <h6>How to join?</h6>
+      {/* Check if registered if yes, show profile else, show register/login cta */}
     </Container>
   )
 }

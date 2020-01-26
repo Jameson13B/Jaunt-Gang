@@ -23,8 +23,8 @@ const NavBar = styled.div`
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  max-width: 500px;
+  margin: 0 auto 15px auto;
+  max-width: 600px;
 `
 const NavBtn = styled(Link)`
   border: 1px solid black;
@@ -32,14 +32,19 @@ const NavBtn = styled(Link)`
   color: black;
   cursor: pointer;
   height: 50%;
+  font-family: Oswald, sans-serif;
   font-size: 0.75rem;
+  font-weight: 600;
   padding: 10px 1rem;
   text-decoration: none;
   :hover {
-    box-shadow: 2px 2px;
+    box-shadow: 3px 3px;
   }
   &:nth-child(2) {
     margin-left: 5%;
+  }
+  @media (max-width: 600px) {
+    font-size: 0.75rem;
   }
 `
 const Logo = styled(Link)`
@@ -47,5 +52,8 @@ const Logo = styled(Link)`
   color: black;
   h1 {
     margin: 0;
+    @media (max-width: 600px) {
+      font-size: 1.5rem;
+    }
   }
 `
